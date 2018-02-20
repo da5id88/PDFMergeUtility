@@ -24,10 +24,9 @@ namespace PDF_Merger.Utilities
                 {
                     targetDoc.Save(targetPath);
                 }
-                catch (System.InvalidOperationException e)
+                catch (System.InvalidOperationException)
                 {
-                    Console.WriteLine(e);
-                    throw;
+
                 }
 
             }
