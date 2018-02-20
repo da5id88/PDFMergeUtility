@@ -11,10 +11,10 @@ namespace PDF_Merger
         static void Main(string[] args)
         {
             #region Variables and messages
-            var noMessage = $"I'll open the directory for you now. Please copy over all the pdf documents you want to merge.\r\n";
-            var noteMessage = $"NOTE: The merge order is determined alphabetically from the file names (e.g., FileA.pdf will come before FileB.pdf).\r\n";
-            var yesMessage = $"\r\nOk great, I'll open it now. Please copy over the your pdf documents you want to merge. \r\n";
-            var goMessage = $"Press [Enter] once you have finished copying the necessary files.\r\n";
+            var noMessage = $"Abriré el directorio por ti ahora. Copie todos los documentos en formato PDF que desee fusionar.\r\n";
+            var noteMessage = $"NOTA: El orden de fusión se determina alfabéticamente a partir de los nombres de archivo (por ejemplo, FileA.pdf aparecerá antes de FileB.pdf).\r\n";
+            var yesMessage = $"\r\nMuy bien, lo abriré ahora. Copie los documentos PDF que desea fusionar.\r\n";
+            var goMessage = $"Pulse [Entrar] cuando haya terminado de copiar los archivos necesarios.\r\n";
 
             //Determining user's desktop filepath
             var rootPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
